@@ -9,5 +9,20 @@ void loop() {
   delay(1000);
   digitalWrite(13, LOW);
   delay(2000);
-
+  digitalWrite(13, HIGH);
+  delay(4);
+  digitalWrite(13, LOW);
+  delay(4000);
+  digitalWrite(13, HIGH);
+  delay(9000);
+  digitalWrite(13, LOW);
+  delay(1000);
+  digitalWrite(13, HIGH);
+  delay(60);
+  digitalWrite(13, LOW);
+  delay(3000);
+  digitalWrite(13, HIGH);
+  delay(7000);
+  digitalWrite(13, LOW);
+  delay(20);
 }
