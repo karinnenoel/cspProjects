@@ -11,8 +11,10 @@ void loop() {
   // put your main code here, to run repeatedly:
   if (Serial.readString() == "On") {
     digitalWrite(13, HIGH);
+    Serial.println("On");
   }
   else if (Serial.readString() == "Off") {
     digitalWrite(13, LOW);
+    Serial.println("Off");
   }
 }
