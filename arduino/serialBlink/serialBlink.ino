@@ -3,6 +3,8 @@ void setup() {
   Serial.begin(9600);
   pinMode(13, OUTPUT);
   Serial.println("Hello, good day to you sir or madam. :D");
+  Serial.println("Send 'On' to turn on the LED.");
+  Serial.println("Send 'Off' to turn off the LED.");
 }
 
 void loop() {
