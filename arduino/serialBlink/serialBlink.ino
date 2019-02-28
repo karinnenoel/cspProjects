@@ -2,6 +2,7 @@ void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
   pinMode(13, OUTPUT);
+  Serial.println("Hello, good day to you sir or madam. :D");
 }
 
 void loop() {
