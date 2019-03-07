@@ -13,11 +13,12 @@ void loop() {
   if (Serial.available() > 0) {
     String command;
     command = Serial.readString();
-    if command == "On") {
+    command.trim();
+    if (command == "On") {
     digitalWrite(13, HIGH);
       Serial.println("On");
     }
-    else if command == "Off") {
+    else if (command == "Off") {
     digitalWrite(13, LOW);
       Serial.println("Off");
     }
